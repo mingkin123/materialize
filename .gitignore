@@ -15,3 +15,5 @@ bower_components
 **/#*#
 **/.#*
 .grunt/
+materialize-with-sidenav.css
+materialize-with-sidenav.scss

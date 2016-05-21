@@ -1,9 +1,8 @@
 {
-  "name": "Materialize",
-  "description": "A modern responsive front-end framework based on Material Design",
+  "name": "Materialize PURE",
+  "description": "A pure CSS version of Materialize",
   "keywords": [
     "css",
-    "js",
     "sass",
     "mobile-first",
     "responsive",
@@ -15,7 +14,6 @@
   ],
   "main": [
     "bin/materialize.css",
-    "bin/materialize.js",
     "fonts/roboto/Roboto-Bold.ttf",
     "fonts/roboto/Roboto-Bold.woff",
     "fonts/roboto/Roboto-Bold.woff2",
@@ -33,28 +31,15 @@
     "fonts/roboto/Roboto-Thin.woff2"
   ],
   "ignore": [
-    "jade/",
     ".gitignore",
-    "CNAME",
     "css/",
     "bower.json",
     "README.md",
-    "images/",
-    "js/jquery.timeago.js",
-    "js/init.js",
-    "js/prism.js",
-    "res/",
     "sass/style.scss",
-    "sass/ghpages-materialize.scss",
-    "**/*.html",
-    "**/*.zip",
-    "**/*.txt",
     "sitemap.xml",
     "package.json",
-    "Gruntfile.js"
   ],
   "dependencies": {
-    "jquery": ">=2.1.1"
   },
   "devDependencies": {
   }
